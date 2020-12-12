@@ -1,0 +1,199 @@
+
+header
+{
+    background-color: #00bfff;
+    width: 100%;
+    height: auto;
+	text-align: center;
+	min-width: 960px;
+}
+
+*{
+    box-siing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	color: #f8f8ff;
+	display: inline-block;
+	
+}
+
+h3{
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	padding-left: 3px;
+	color: #f8f8ff;
+	display: inline-block;
+}
+
+p {
+	font-size: 90%;
+	display: inline-block;
+	
+}
+
+
+
+.logo
+{
+	height: auto;
+	width: 40px;
+	margin-bottom: 3px;
+}
+
+html{
+	width: 100%;
+ height: 100%;
+}
+
+body{
+	width: 100%;
+ height: 100%;
+}
+
+main{
+ background-color: blak;	
+ width: 100%;
+ height: 100%;
+}
+
+.bar{
+	min-width: 960px;
+	margin: 0;
+	height: 4%;
+	border: 2px solid black;  
+	background-color: white;
+	
+}
+.barcon{
+	font-width: 99%;
+	font-size: 99%;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+	padding: 4px 33px;
+}
+
+.novinki{
+	min-width: 660px;
+	width: 59%;
+	height: 40%;
+	margin: 15px;
+	border: 2px solid black;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.novinkiimg{
+	width: 20%;
+	padding: 17px;
+}
+
+
+
+.ofis{
+	min-width: 500px;
+	display: inline-block;
+	position: absolute;
+	width: 30%;
+	margin-top: 3px;
+	margin-left: 50px;
+	margin-right: 5px;
+	padding: 10px 0px 10px 0px;
+	background-color: blak;
+	
+}
+
+.ofisimg{
+	
+	width: 100%;
+}
+
+.text{
+	font-weight: 400;
+	font-family: 'Roboto Slab', serif;
+	font-size: 140%;
+	margin: 20px 24px 24px 20px;
+	background-color: gr;
+	width: 60%;
+	height: 42%;
+	
+}
+
+.reklama{
+	position: relative;
+	box-sizing: content-box;
+	text-align: right;
+	width: 30%;
+	display: inline-block;
+	font-weight: 400;
+	font-family: 'Roboto Slab', serif;
+	background-color: orange;
+}
+
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: #00bfff;
+}
+
+.footercon{
+	margin-left: 10px;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	color: #f8f8ff;
+	display: inline-block;
+}
+
+.voiti {
+	color: black;
+	float: right;
+	margin: 10px;
+	width: 70px;
+	height: 30px;
+	border: unset;
+	border-bottom: 2px solid black;
+	cursor: pointer;
+	background-color: #00bfff;
+}
+
+.voiti:active, button:focus {
+	outline: none;
+}
+.voiti::-moz-focus-inner {
+	border: 0;
+}
+
+.lc {
+	position: absolute;
+	right: 80%;
+}
+
+
+a{
+	color: white;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+.catalhov:hover{
+	color: #00bfff;
+}
+.catalhov{
+	color: black;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,211 @@
+header
+{
+    background-color: #00bfff;
+    width: 100%;
+    height: auto;
+	text-align: center;
+	min-width: 960px;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+main{
+ background-color: blak;
+ width: 100%;
+ height: 100%;
+}
+
+
+h2 {
+
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	color: #f8f8ff;
+	display: inline-block;
+
+}
+
+h3{
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	padding-left: 3px;
+	color: #f8f8ff;
+	display: inline-block;
+}
+
+
+
+p {
+	font-size: 90%;
+	display: inline-block;
+
+}
+
+form {
+	display: flex;
+	width: 20%;
+	height: auto;
+	flex-direction: column;
+	background-clor: black;
+
+}
+
+input {
+	margin: 10px 0;
+	border: unset;
+	border-bottom: 2px solid black;
+}
+
+#nazv{
+	text-align: center;
+	margin: 12px;
+	font-family: 'Playfair Display', serif;
+}
+
+.catal{
+	text-align: center;
+	min-width: 660px;
+	width: 99%;
+	height: 80%;
+	margin: 15px;
+	border: 2px solid black;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.catalimg{
+	width: 17%;
+	margin: 40px;
+}
+
+.knigaimg{
+
+	width: 17%;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.knigainfo{
+	margin-right: 70px;
+	margin-left: 50px;
+	padding-top: 50px;
+	font-size: 130%;
+	font-family: 'Playfair Display', serif;
+	color: black;
+	display: inline-block;
+	width: 60%;
+	background-color: back;
+}
+
+.kupit{
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+	display: inline-block;
+	margin: 2px 4%;
+}
+
+.center{
+	display: block;
+	text-align: center;
+}
+
+.magaz1{
+	margin-top: 40px;
+	font-family: 'Playfair Display', serif;
+	background-color: grn;
+	width: 60%;
+}
+
+.magaz1t{
+	margin: 20px;
+	font-size: 60%;
+}
+
+.magaz1tx{
+	margin: 10px 0px 100px 60px;
+	font-size: 50%;
+}
+
+
+.logo
+{
+	height: auto;
+	width: 40px;
+	margin-bottom: 3px;
+}
+
+
+.voiti {
+	color: black;
+	float: right;
+	margin: 10px;
+	width: 70px;
+	height: 30px;
+	border: unset;
+	border-bottom: 2px solid black;
+	cursor: pointer;
+	background-color: #00bfff;
+}
+
+.bar{
+	min-width: 960px;
+	height: 4%;
+	width: 100%;
+	border: 2px solid black;
+	background-color: white;
+
+}
+.barcon{
+	font-size: 99%;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+	padding: 4px 33px;
+}
+
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: #00bfff;
+}
+
+.footercon{
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	color: #f8f8ff;
+	display: inline-block;
+}
+
+
+a{
+	color: white;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+td, th {
+	padding: 15px;
+}
+
+
+.catalhov:hover{
+	color: #00bfff;
+}
+.catalhov{
+	color: black;
+}
