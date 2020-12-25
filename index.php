@@ -20,7 +20,7 @@ session_start();
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"></head>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
@@ -39,7 +39,10 @@ session_start();
 
 	} else {
           echo '
-          <a href = "voiti.php" ><button class="voiti" type = "submit" >Войти</a ></button ></a>
+          <a href = "voiti.php" ><button class="voiti" type = "submit" >Войти</a ></button >
+          <a href = "registration.php" ><button style="border: unset; border-bottom: 2px solid black; cursor: pointer;
+	background-color: #00bfff; float: right; margin: 10px" type = "submit" >Регистрация</a ></button >
+          
           ';
       }
       ?>
@@ -48,7 +51,7 @@ session_start();
 <div class='bar'>
 	<p class='barcon'><a class='catalhov' href='catalog.php'>Каталог</a></p>
 	<p class='barcon'><a class='catalhov' href='magaz.php'>Магазины</a></p>
-    <p class='barcon'><a class='catalhov' href='lab4.php'>Добавить запись в базу данных</a></p>
+    <p class='barcon'><a class='catalhov' href='lab4_added.php'>База данных и поиск</a></p>
 <?php
 if ((@$_SESSION['user']['login']))
     echo '<p class="barcon"><a class="catalhov" href="lc.php">Личный Кабинет</a></p>' ?>

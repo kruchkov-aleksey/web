@@ -21,7 +21,7 @@ require_once "links.html";
 <html lang="en">
 <body>
 <head>
-    <title>Добавление в базу данных</title>
+    <title>Изменение данных о себе</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <main>

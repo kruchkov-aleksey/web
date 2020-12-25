@@ -39,6 +39,9 @@ require_once "links.html";
             <label style="font-weight: bold">Год(руб, только цифры)</label>
             <input type='text' name='year' placeholder='Введите год'>
             <br>
+            <label style="font-weight: bold">Описание</label>
+            <input type='text' name='inf' placeholder='Введите описание книги'>
+            <br>
             <label style="font-weight: bold">Файл</label>
             <input type='file' name='upload'>
             <br>

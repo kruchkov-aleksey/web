@@ -1,6 +1,6 @@
 <?php
 require_once 'connect.php';
-$connect = mysqli_connect('localhost',  'root', '', 'users');
+$connect = mysqli_connect('localhost',  'root', '', 'laba4');
 session_start();
 ?>
 <!DOCTYPE html>
@@ -47,6 +47,7 @@ session_start();
 <a href='mumu.php'><img alt='oops' title='Муму' class='catalimg' src='img/Безымянный.png'></a>
 <a href='petushki.php'><img alt='oops' title='Москва-Петушки' class='catalimg' src='img/Moscow_Petushki.jpg'></a>
 </div>
+
 
   
 </main>

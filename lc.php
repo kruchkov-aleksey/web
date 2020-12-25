@@ -1,39 +1,20 @@
 <?php
-    session_start();
-
-
-
+session_start();
 $connect = mysqli_connect('localhost',  'root', '', 'users');
-    $valid_users = [
-        ['login' => 'petrov', 'password' => 'hell'],
-        ['login' => 'ivanov', 'password' => 'papa'],
-    ];
 
-
-/*if (!in_array($_POST['login'], array_column($valid_users, 'login'))) {
-     $_SESSION['message']='Ошибка неверный логин';
-     header('Location: voiti.php');
- }
-
-    else
-        if (!in_array($_POST['password'], array_column($valid_users, 'password'))) {
-         $_SESSION['message']='Ошибка неверный пароль';
-         header('Location: voiti.php');
-     }
-*/
 $login=$_SESSION['login'];
 $password= $_SESSION['password'];
 
-
-
-$check_user = mysqli_query($connect, "SELECT * FROM user WHERE login = '$login'");
+$check_user = mysqli_query($connect, "SELECT * FROM user WHERE login = '$login' AND password='$password'");
     $user = mysqli_fetch_assoc($check_user);
+   // print_r($user);
     $_SESSION['user'] = [
             'id'=>$user['id'],
             'login'=>$user['login'],
-            'inf'=>$user['inf']
+            'inf'=>$user['inf'],
+            'img'=>$user['img'],
             ];
-   // echo $_SESSION['user']['login'];
+   //print_r( $_SESSION['user']);
 
 
 if (!isset($_SESSION['user']['login'])) {
@@ -61,6 +42,7 @@ if (!isset($_SESSION['user']['login'])) {
     <link rel="stylesheet" href="css/mdb.min.css">
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="sstyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"></head>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <body>
@@ -84,10 +66,19 @@ if (!isset($_SESSION['user']['login'])) {
         ?> </h4>
 
     <div class='text'>
-        <?php
-        echo $_SESSION['user']['inf'];
-        ?>
+
+        <img alt='oops' title='' class='knigaimg' src='<?=$_SESSION['user']['img']?>'>
+        <div class='knigainfo'>
+            <p class='knigainfo1'><?=$_SESSION['user']['login']?></p><br>
+            <p class='knigainfo1'><?=$_SESSION['user']['inf']?></div>
+        <br>
+        
+
+
     </div>
+
+
+
 
 
 
